@@ -1,0 +1,15 @@
+/* 主题切换按钮作为菜单项时的样式微调 */
+.theme-toggle-li button.theme-toggle {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: var(--primary);
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.theme-toggle-li button.theme-toggle:hover {
+    color: var(--secondary);
+}

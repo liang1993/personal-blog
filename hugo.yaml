@@ -47,10 +47,7 @@ params:
 
   homeInfoParams:
     Title: "你好 👋"
-    Content: |
-      我在这里记录学习总结、读书笔记、思考反思。
-
-      慢更，但每篇都尽量写到自己满意。
+    Content: 我在这里记录学习总结、读书笔记、思考反思。
 
   socialIcons:
     - name: github
