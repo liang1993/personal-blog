@@ -2,6 +2,7 @@
 title: publish-blog 冒烟测试草稿
 date: 2026-05-19
 draft: false
+slug: blog-pipeline-smoke-test
 tags: [元, 测试]
 summary: 用来验证 publish-blog.sh 的端到端流程；如果你看到这条线上，说明流水线通了。
 math: false
