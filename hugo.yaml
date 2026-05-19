@@ -1,7 +1,7 @@
 baseURL: https://liang1993.github.io/personal-blog/
 locale: zh-cn
 defaultContentLanguage: zh-cn
-title: 林彬的笔记
+title: ""
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -26,9 +26,8 @@ taxonomies:
 
 params:
   env: production
-  title: 林彬的笔记
+  title: ""
   description: "学习总结、读书笔记、思考反思"
-  author: liang1993
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
@@ -49,9 +48,9 @@ params:
   homeInfoParams:
     Title: "你好 👋"
     Content: |
-      这里是林彬的笔记。
+      我在这里记录学习总结、读书笔记、思考反思。
 
-      记录学习总结、读书笔记、思考反思。慢更，但每篇都尽量写到自己满意。
+      慢更，但每篇都尽量写到自己满意。
 
   socialIcons:
     - name: github
