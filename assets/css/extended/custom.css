@@ -5,11 +5,16 @@
     padding: 0;
     cursor: pointer;
     color: var(--primary);
-    display: inline-flex;
-    align-items: center;
-    height: 100%;
+    vertical-align: middle;
+    line-height: 1;
 }
 
 .theme-toggle-li button.theme-toggle:hover {
     color: var(--secondary);
+}
+
+/* PaperMod 的 .menu 默认 overflow-x:auto，按钮 SVG 让内容偏高会出滚动条；
+   宽屏下没必要溢出，关掉滚动条 */
+.menu {
+    overflow: visible;
 }
