@@ -1,5 +1,5 @@
 ---
-title: "Hi there 👋"
+title: ""
 url: /about/
 hidemeta: true
 disableShare: true
