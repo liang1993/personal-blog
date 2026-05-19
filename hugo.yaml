@@ -1,0 +1,113 @@
+baseURL: https://liang1993.github.io/personal-blog/
+locale: zh-cn
+defaultContentLanguage: zh-cn
+title: 林彬的笔记
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+permalinks:
+  posts: /posts/:slug/
+
+taxonomies:
+  tag: tags
+  series: series
+
+params:
+  env: production
+  title: 林彬的笔记
+  description: "学习总结、读书笔记、思考反思"
+  author: liang1993
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  UseHugoToc: true
+  comments: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+
+  homeInfoParams:
+    Title: "你好 👋"
+    Content: |
+      这里是林彬的笔记。
+
+      记录学习总结、读书笔记、思考反思。慢更，但每篇都尽量写到自己满意。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/liang1993"
+    - name: rss
+      url: "index.xml"
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  highlight:
+    style: github
+    lineNos: false
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 50

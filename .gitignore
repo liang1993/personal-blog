@@ -1,0 +1,8 @@
+public/
+resources/
+.hugo_build.lock
+.DS_Store
+node_modules/
+
+# 草稿不进 blog 仓库；草稿在 personal-wiki 私有库
+content/drafts/
